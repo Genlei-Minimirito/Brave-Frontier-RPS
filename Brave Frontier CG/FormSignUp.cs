@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-
+using System.Media;
 namespace Brave_Frontier_CG
 {
     public partial class FormSignUp : Form
     {
+        SoundPlayer touch = new SoundPlayer(@"C:\BSCS 1B\BFCG\touch sfx.wav");
         public FormSignUp()
         {
+            
             InitializeComponent();
         }
 
@@ -22,7 +24,12 @@ namespace Brave_Frontier_CG
 
         private void picLogIn_Click(object sender, EventArgs e)
         {
-            
+            touch.Play();
+            this.Hide();
+            FormLogIn formLogIn = new FormLogIn();
+            formLogIn.StartPosition = FormStartPosition.Manual;
+            formLogIn.Location = this.Location;
+            formLogIn.ShowDialog();
         }
 
         private void btnSignUp_Click_1(object sender, EventArgs e)
@@ -56,6 +63,7 @@ namespace Brave_Frontier_CG
                     else
                         MessageBox.Show("Database error: " + ex.Message);
                 }
+                touch.Play();
                 this.Hide();
                 FormLogIn formLogIn = new FormLogIn();
                 formLogIn.StartPosition = FormStartPosition.Manual;

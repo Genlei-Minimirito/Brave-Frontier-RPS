@@ -40,7 +40,7 @@
             btnTouch.ForeColor = Color.Khaki;
             btnTouch.Location = new Point(-45, -24);
             btnTouch.Name = "btnTouch";
-            btnTouch.Size = new Size(519, 712);
+            btnTouch.Size = new Size(476, 712);
             btnTouch.TabIndex = 0;
             btnTouch.Text = "TOUCH SCREEN";
             btnTouch.TextAlign = ContentAlignment.BottomCenter;
@@ -57,6 +57,7 @@
             Controls.Add(btnTouch);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "BFCG";
             Load += Form1_Load;
             ResumeLayout(false);

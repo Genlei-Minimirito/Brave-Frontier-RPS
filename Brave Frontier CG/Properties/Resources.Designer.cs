@@ -63,6 +63,46 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ALICE___DEEMO_IDLE_ANIMATION {
+            get {
+                object obj = ResourceManager.GetObject("ALICE___DEEMO_IDLE_ANIMATION", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ALL_MIGHT {
+            get {
+                object obj = ResourceManager.GetObject("ALL_MIGHT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ALL_MIGHT_ATTACK {
+            get {
+                object obj = ResourceManager.GetObject("ALL_MIGHT_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ALL_MIGHT_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("ALL_MIGHT_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ATRO {
             get {
                 object obj = ResourceManager.GetObject("ATRO", resourceCulture);
@@ -76,6 +116,126 @@ namespace Brave_Frontier_CG.Properties {
         internal static System.Drawing.Bitmap ATRO_IDLE {
             get {
                 object obj = ResourceManager.GetObject("ATRO_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BAKUGO_ATTACK {
+            get {
+                object obj = ResourceManager.GetObject("BAKUGO_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BAKUGO_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("BAKUGO_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BATTLE_FIELD_UI {
+            get {
+                object obj = ResourceManager.GetObject("BATTLE_FIELD_UI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BOW {
+            get {
+                object obj = ResourceManager.GetObject("BOW", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BOW_GAME {
+            get {
+                object obj = ResourceManager.GetObject("BOW_GAME", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DEEMO_DARK {
+            get {
+                object obj = ResourceManager.GetObject("DEEMO_DARK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DEEMO_DARK_ATTACK {
+            get {
+                object obj = ResourceManager.GetObject("DEEMO_DARK_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DEEMO_DARK_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("DEEMO_DARK_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DEEMO_LIGHT {
+            get {
+                object obj = ResourceManager.GetObject("DEEMO_LIGHT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DEEMO_LIGHT_ATTACK {
+            get {
+                object obj = ResourceManager.GetObject("DEEMO_LIGHT_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DEEMO_LIGHT_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("DEEMO_LIGHT_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DEKU {
+            get {
+                object obj = ResourceManager.GetObject("DEKU", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +263,29 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DEKU_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("DEKU_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DEKU_IDLE_ALTER {
             get {
                 object obj = ResourceManager.GetObject("DEKU_IDLE_ALTER", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DISNEY_COLLAB_BANNER {
+            get {
+                object obj = ResourceManager.GetObject("DISNEY_COLLAB_BANNER", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +323,29 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IORI {
+            get {
+                object obj = ResourceManager.GetObject("IORI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IORI_ATTACK {
             get {
                 object obj = ResourceManager.GetObject("IORI_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IORI_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("IORI_IDLE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +363,76 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap JUZO_ATTACK {
+            get {
+                object obj = ResourceManager.GetObject("JUZO_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JUZO_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("JUZO_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JUZO_SUZUYA {
+            get {
+                object obj = ResourceManager.GetObject("JUZO_SUZUYA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KAITO {
+            get {
+                object obj = ResourceManager.GetObject("KAITO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KAITO_ATTACK {
+            get {
+                object obj = ResourceManager.GetObject("KAITO_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KAITO_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("KAITO_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KANEKI {
+            get {
+                object obj = ResourceManager.GetObject("KANEKI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap KANEKI_ATTACK {
             get {
                 object obj = ResourceManager.GetObject("KANEKI_ATTACK", resourceCulture);
@@ -173,9 +443,29 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap KANEKI_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("KANEKI_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap KANEKI_IDLE_ALTER {
             get {
                 object obj = ResourceManager.GetObject("KANEKI_IDLE_ALTER", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KATSUKI_BAKUGO {
+            get {
+                object obj = ResourceManager.GetObject("KATSUKI_BAKUGO", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,6 +503,16 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LASSWELL {
+            get {
+                object obj = ResourceManager.GetObject("LASSWELL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LASSWELL_ATTACK {
             get {
                 object obj = ResourceManager.GetObject("LASSWELL_ATTACK", resourceCulture);
@@ -233,9 +533,69 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LASSWELL_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("LASSWELL_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LASSWELL_IDLE_ALTER {
             get {
                 object obj = ResourceManager.GetObject("LASSWELL_IDLE_ALTER", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LEFT_ARROW {
+            get {
+                object obj = ResourceManager.GetObject("LEFT_ARROW", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LEN {
+            get {
+                object obj = ResourceManager.GetObject("LEN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LEN_ATTACK {
+            get {
+                object obj = ResourceManager.GetObject("LEN_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LEN_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("LEN_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LOG_IN_UI {
+            get {
+                object obj = ResourceManager.GetObject("LOG_IN_UI", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,6 +633,16 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MIKU {
+            get {
+                object obj = ResourceManager.GetObject("MIKU", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MIKU_ATTACK {
             get {
                 object obj = ResourceManager.GetObject("MIKU_ATTACK", resourceCulture);
@@ -286,6 +656,16 @@ namespace Brave_Frontier_CG.Properties {
         internal static System.Drawing.Bitmap MIKU_ATTACK_ALTER {
             get {
                 object obj = ResourceManager.GetObject("MIKU_ATTACK_ALTER", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MIKU_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("MIKU_IDLE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -413,9 +793,29 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap NATSU {
+            get {
+                object obj = ResourceManager.GetObject("NATSU", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NATSU_ATTACK {
             get {
                 object obj = ResourceManager.GetObject("NATSU_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NATSU_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("NATSU_IDLE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -433,9 +833,69 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap OBTAINED {
+            get {
+                object obj = ResourceManager.GetObject("OBTAINED", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PAPER {
             get {
                 object obj = ResourceManager.GetObject("PAPER", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QUEST {
+            get {
+                object obj = ResourceManager.GetObject("QUEST", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RIGHT_ARROW {
+            get {
+                object obj = ResourceManager.GetObject("RIGHT_ARROW", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RIN {
+            get {
+                object obj = ResourceManager.GetObject("RIN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RIN_ATTACK {
+            get {
+                object obj = ResourceManager.GetObject("RIN_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RIN_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("RIN_IDLE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -456,6 +916,16 @@ namespace Brave_Frontier_CG.Properties {
         internal static System.Drawing.Bitmap SCISSORS {
             get {
                 object obj = ResourceManager.GetObject("SCISSORS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SELECT_UI {
+            get {
+                object obj = ResourceManager.GetObject("SELECT_UI", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,6 +973,66 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SIGN_UP_UI {
+            get {
+                object obj = ResourceManager.GetObject("SIGN_UP_UI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap STAFF {
+            get {
+                object obj = ResourceManager.GetObject("STAFF", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap STAFF_GAME {
+            get {
+                object obj = ResourceManager.GetObject("STAFF_GAME", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SUMMON_ANIMATION {
+            get {
+                object obj = ResourceManager.GetObject("SUMMON_ANIMATION", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SWORD {
+            get {
+                object obj = ResourceManager.GetObject("SWORD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SWORD_GAME {
+            get {
+                object obj = ResourceManager.GetObject("SWORD_GAME", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap THUNDER_ATTACK {
             get {
                 object obj = ResourceManager.GetObject("THUNDER_ATTACK", resourceCulture);
@@ -513,9 +1043,89 @@ namespace Brave_Frontier_CG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap TOKI {
+            get {
+                object obj = ResourceManager.GetObject("TOKI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TOKI_ATTACK {
+            get {
+                object obj = ResourceManager.GetObject("TOKI_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TOKI_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("TOKI_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TOUKA_ATTACK {
+            get {
+                object obj = ResourceManager.GetObject("TOUKA_ATTACK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TOUKA_IDLE {
+            get {
+                object obj = ResourceManager.GetObject("TOUKA_IDLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TOUKA_KIRISHIMA {
+            get {
+                object obj = ResourceManager.GetObject("TOUKA_KIRISHIMA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap UNIT_UI {
+            get {
+                object obj = ResourceManager.GetObject("UNIT_UI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap VARGAS {
             get {
                 object obj = ResourceManager.GetObject("VARGAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VARGAS_ATTACK {
+            get {
+                object obj = ResourceManager.GetObject("VARGAS ATTACK", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

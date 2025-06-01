@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSummon));
             picSummon5 = new PictureBox();
             picSummon10 = new PictureBox();
@@ -40,6 +41,10 @@
             picArrowRight = new PictureBox();
             picArrowLeft = new PictureBox();
             lblName = new Label();
+            toolTipNavBar = new ToolTip(components);
+            lblMana = new Label();
+            lblCoins = new Label();
+            lblGems = new Label();
             ((System.ComponentModel.ISupportInitialize)picSummon5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picSummon10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picSocial).BeginInit();
@@ -174,6 +179,45 @@
             lblName.TabIndex = 27;
             lblName.Text = "PlayerName";
             // 
+            // lblMana
+            // 
+            lblMana.BackColor = Color.Transparent;
+            lblMana.FlatStyle = FlatStyle.Popup;
+            lblMana.Font = new Font("SimSun", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblMana.ForeColor = SystemColors.ControlLightLight;
+            lblMana.Location = new Point(319, 56);
+            lblMana.Name = "lblMana";
+            lblMana.Size = new Size(91, 17);
+            lblMana.TabIndex = 30;
+            lblMana.Text = "0";
+            lblMana.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // lblCoins
+            // 
+            lblCoins.BackColor = Color.Transparent;
+            lblCoins.FlatStyle = FlatStyle.Popup;
+            lblCoins.Font = new Font("SimSun", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblCoins.ForeColor = SystemColors.ControlLightLight;
+            lblCoins.Location = new Point(319, 39);
+            lblCoins.Name = "lblCoins";
+            lblCoins.Size = new Size(91, 17);
+            lblCoins.TabIndex = 29;
+            lblCoins.Text = "0";
+            lblCoins.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // lblGems
+            // 
+            lblGems.BackColor = Color.Transparent;
+            lblGems.FlatStyle = FlatStyle.Popup;
+            lblGems.Font = new Font("SimSun", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblGems.ForeColor = SystemColors.ControlLightLight;
+            lblGems.Location = new Point(319, 22);
+            lblGems.Name = "lblGems";
+            lblGems.Size = new Size(91, 17);
+            lblGems.TabIndex = 28;
+            lblGems.Text = "99999";
+            lblGems.TextAlign = ContentAlignment.MiddleRight;
+            // 
             // FormSummon
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -181,6 +225,9 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(413, 680);
+            Controls.Add(lblMana);
+            Controls.Add(lblCoins);
+            Controls.Add(lblGems);
             Controls.Add(lblName);
             Controls.Add(picArrowLeft);
             Controls.Add(picArrowRight);
@@ -222,5 +269,9 @@
         private PictureBox picArrowRight;
         private PictureBox picArrowLeft;
         private Label lblName;
+        private ToolTip toolTipNavBar;
+        private Label lblMana;
+        private Label lblCoins;
+        private Label lblGems;
     }
 }

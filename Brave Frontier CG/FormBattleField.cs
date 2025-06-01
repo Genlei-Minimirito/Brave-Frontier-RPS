@@ -25,7 +25,7 @@ namespace Brave_Frontier_CG
 
         // Enum for RPS choices
         private enum RpsChoice { Rock, Paper, Scissors }
-
+        private Label lblEndGame;
         /// <summary>
         /// Constructor accepting the starter card image and name.
         /// </summary>
@@ -49,16 +49,36 @@ namespace Brave_Frontier_CG
             // Load bot animations
             SetBotAnimations(_botName);
         }
-        SoundPlayer touch = new SoundPlayer(@"C:\BSCS 1B\BFCG\touch sfx.wav");
+        SoundPlayer battleOST = new SoundPlayer(@"C:\BSCS 1B\BFCG\Battlefield OST.wav");
+        private FormsTimer _endGameTimer;
         /// <summary>
         /// Default constructor: sets up UI and timers.
         /// </summary>
         public FormBattleField()
         {
             InitializeComponent();
+            battleOST.Play();
+            lblEndGame = new Label
+            {
+                AutoSize = true,
+                Font = new Font("Segoe UI", 18, FontStyle.Bold),
+                BackColor = Color.Transparent,
+                ForeColor = Color.White,
+                Text = "",
+                Visible = false
+            };
+            toolTipChoice.SetToolTip(btnRock, "SWORD DEFEATS BOW");
+            toolTipChoice.SetToolTip(btnPaper, "STAFF DEFEATS SWORD");
+            toolTipChoice.SetToolTip(btnSci, "BOW DEFEATS STAFF");
+            // Add it to the form’s controls
+            this.Controls.Add(lblEndGame);
 
-            // Initialize random
-            _random = new Random();
+            // (Optional) position it now or later before showing:
+            lblEndGame.Location = new Point(
+                (this.ClientSize.Width - lblEndGame.Width) / 2,
+                (this.ClientSize.Height - lblEndGame.Height) / 2);
+                        // Initialize random
+                        _random = new Random();
 
             // Configure attack timers
             _playerAttackTimer = new FormsTimer { Interval = 2650 };
@@ -80,6 +100,9 @@ namespace Brave_Frontier_CG
 
             UpdateLivesDisplay();
             lblResult.Text = string.Empty;
+
+            _endGameTimer = new FormsTimer { Interval = 6000 };
+            _endGameTimer.Tick += EndGameTimer_Tick;
         }
 
         private void btnRock_Click(object sender, EventArgs e) => OnPlayerChoice(RpsChoice.Rock);
@@ -88,7 +111,7 @@ namespace Brave_Frontier_CG
 
         private void OnPlayerChoice(RpsChoice playerChoice)
         {
-            touch.Play();
+            
             // Disable input
             btnRock.Enabled = btnPaper.Enabled = btnSci.Enabled = false;
 
@@ -143,9 +166,9 @@ namespace Brave_Frontier_CG
         {
             return choice switch
             {
-                RpsChoice.Rock => Properties.Resources.ROCK,
-                RpsChoice.Paper => Properties.Resources.PAPER,
-                RpsChoice.Scissors => Properties.Resources.SCISSORS,
+                RpsChoice.Rock => Properties.Resources.SWORD_GAME,
+                RpsChoice.Paper => Properties.Resources.STAFF_GAME,
+                RpsChoice.Scissors => Properties.Resources.BOW_GAME,
                 _ => null
             };
         }
@@ -173,23 +196,73 @@ namespace Brave_Frontier_CG
 
         private void UpdateLivesDisplay()
         {
-            lblPlayerLives.Text = $"Player Lives: {_playerLives}";
-            lblBotLives.Text = $"Bot Lives: {_botLives}";
+            lblPlayerLives.Text = $"Your Lives: {_playerLives}";
+            lblBotLives.Text = $"Enemy Lives: {_botLives}";
         }
 
         private void EndGame()
         {
+            // disable the RPS buttons
             btnRock.Enabled = btnPaper.Enabled = btnSci.Enabled = false;
-
+            bool playerWon = _playerLives > 0;
+            // determine victory/defeat text
             var title = _playerLives > 0 ? "Victory" : "Defeat";
-            var message = _playerLives > 0 ? "You defeated the bot!" : "You have no lives left!";
+           
+                
 
-            MessageBox.Show(message, title, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // award between 1–5 gems
+            
 
-            Hide();
-            new FormMainMenu().Show();
-            Close();
+            // show it in your label
+            int gemReward = 0;
+            if (playerWon)
+            {
+                gemReward = _random.Next(1, 6);
+                GameState.Gems += gemReward;
+            }
+
+            // Build the label text
+            if (playerWon)
+            {
+                // On victory, show the reward
+                lblEndGame.TextAlign = ContentAlignment.MiddleCenter;
+                lblEndGame.Text = $"{title}\r\nYou earned {gemReward} gem(s)!";
+
+            }
+            else
+            {
+                // On defeat, omit the gem line
+                lblEndGame.TextAlign = ContentAlignment.MiddleCenter;
+                lblEndGame.Text = $"{title}\r";
+            }
+            // Center it in the client area
+            int x = (this.ClientSize.Width - lblEndGame.Width) / 2;
+            int y = (this.ClientSize.Height - lblEndGame.Height) / 2;  // shift 50px down
+
+            lblEndGame.Location = new Point(x, y);
+
+            lblEndGame.Visible = true;
+            lblEndGame.BringToFront();
+
+            // start the delay before returning to menu
+            _endGameTimer.Start();
         }
+
+        private void EndGameTimer_Tick(object sender, EventArgs e)
+        {
+            _endGameTimer.Stop();
+
+            // return to menu
+            var menu = new FormMainMenu()
+            {
+                StartPosition = FormStartPosition.CenterScreen,
+            };
+          
+            menu.Show();
+
+            this.Close();
+        }
+
 
         /// <summary>
         /// Load player idle/attack animations based on character name.
@@ -200,7 +273,7 @@ namespace Brave_Frontier_CG
             {
                 case "Vargas":
                     picIdle.Image = Properties.Resources.VARGAS_IDLE_ANIMATION;
-                    picAttack.Image = Properties.Resources.VARGAS_ATTACK_ANIMATION;
+                    picAttack.Image = Properties.Resources.VARGAS_ATTACK;
                     break;
                 case "Selena":
                     picIdle.Image = Properties.Resources.SELENA_IDLE_ANIMATION;
@@ -221,6 +294,72 @@ namespace Brave_Frontier_CG
                 case "Atro":
                     picIdle.Image = Properties.Resources.ATRO_IDLE;
 
+                    break;
+                case "Deku\n5☆☆☆☆☆":
+                    picIdle.Image = Properties.Resources.DEKU_IDLE;
+                    picAttack.Image = Properties.Resources.DEKU_ATTACK;
+                    break;
+                case "Lasswell\n5☆☆☆☆☆":
+                    picIdle.Image = Properties.Resources.LASSWELL_IDLE;
+                    picAttack.Image = Properties.Resources.LASSWELL_ATTACK;
+                    break;
+                case "Miku\n5☆☆☆☆☆":
+                    picIdle.Image = Properties.Resources.MIKU_IDLE;
+                    picAttack.Image = Properties.Resources.MIKU_ATTACK;
+                    break;
+                case "Natsu\n5☆☆☆☆☆":
+                    picIdle.Image = Properties.Resources.NATSU_IDLE;
+                    picAttack.Image = Properties.Resources.NATSU_ATTACK;
+                    break;
+                case "Iori Yagami\n5☆☆☆☆☆":
+                    picIdle.Image = Properties.Resources.IORI_IDLE;
+                    picAttack.Image = Properties.Resources.IORI_ATTACK;
+                    break;
+                case "Kaneki\n5☆☆☆☆☆":
+                    picIdle.Image = Properties.Resources.KANEKI_IDLE;
+                    picAttack.Image = Properties.Resources.KANEKI_ATTACK;
+                    break;
+                case "Kaito\n3☆☆☆":
+                    picIdle.Image = Properties.Resources.KAITO_IDLE;
+                    picAttack.Image = Properties.Resources.KAITO_ATTACK;
+                    break;
+                case "Kagamine Rin\n3☆☆☆":
+                    picIdle.Image = Properties.Resources.RIN_IDLE;
+                    picAttack.Image = Properties.Resources.RIN_ATTACK;
+                    break;
+                case "Kagamine Len\n3☆☆☆":
+                    picIdle.Image = Properties.Resources.LEN_IDLE;
+                    picAttack.Image = Properties.Resources.LEN_ATTACK;
+                    break;
+                case "Juzo Suzuya\n3☆☆☆":
+                    picIdle.Image = Properties.Resources.JUZO_IDLE;
+                    picAttack.Image = Properties.Resources.JUZO_ATTACK;
+                    break;
+                case "Touka Kirishima\n3☆☆☆":
+                    picIdle.Image = Properties.Resources.TOUKA_IDLE;
+                    picAttack.Image = Properties.Resources.TOUKA_ATTACK;
+                    break;
+
+                // 4★ units
+                case "All Might\n4☆☆☆☆":
+                    picIdle.Image = Properties.Resources.ALL_MIGHT_IDLE;
+                    picAttack.Image = Properties.Resources.ALL_MIGHT_ATTACK;
+                    break;
+                case "Toki\n4☆☆☆☆":
+                    picIdle.Image = Properties.Resources.TOKI_IDLE;
+                    picAttack.Image = Properties.Resources.TOKI_ATTACK;
+                    break;
+                case "Dark Deemo and the Girl\n4☆☆☆☆":
+                    picIdle.Image = Properties.Resources.DEEMO_DARK_IDLE;
+                    picAttack.Image = Properties.Resources.DEEMO_DARK_ATTACK;
+                    break;
+                case "Deemo and the Girl\n4☆☆☆☆":
+                    picIdle.Image = Properties.Resources.DEEMO_LIGHT_IDLE;
+                    picAttack.Image = Properties.Resources.DEEMO_LIGHT_ATTACK;
+                    break;
+                case "Katsuki Bakugo\n4☆☆☆☆":
+                    picIdle.Image = Properties.Resources.BAKUGO_IDLE;
+                    picAttack.Image = Properties.Resources.BAKUGO_ATTACK;
                     break;
                 default:
                     picIdle.Image = Properties.Resources.EZE_IDLE_ANIMATION;
@@ -262,6 +401,7 @@ namespace Brave_Frontier_CG
                 case "Atro":
                     picBotIdle.Image = Properties.Resources.MONSTER6;
                     picBotAttack.Image = Properties.Resources.MONSTER6_ATTACK;
+
                     break;
                 default:
                     picBotIdle.Image = Properties.Resources.MONSTER3;

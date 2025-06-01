@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBattleField));
             picIdle = new PictureBox();
             picAttack = new PictureBox();
@@ -43,6 +44,7 @@
             picCardHolder = new PictureBox();
             picBotIdle = new PictureBox();
             picBotAttack = new PictureBox();
+            toolTipChoice = new ToolTip(components);
             ((System.ComponentModel.ISupportInitialize)picIdle).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picAttack).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picEnemyChoice).BeginInit();
@@ -78,35 +80,41 @@
             // 
             // btnRock
             // 
-            btnRock.BackgroundImage = Properties.Resources.ROCK;
+            btnRock.BackColor = Color.Transparent;
+            btnRock.BackgroundImage = Properties.Resources.SWORD;
             btnRock.BackgroundImageLayout = ImageLayout.Stretch;
-            btnRock.Location = new Point(227, 253);
+            btnRock.FlatStyle = FlatStyle.Popup;
+            btnRock.Location = new Point(22, 510);
             btnRock.Name = "btnRock";
-            btnRock.Size = new Size(51, 48);
+            btnRock.Size = new Size(89, 111);
             btnRock.TabIndex = 3;
-            btnRock.UseVisualStyleBackColor = true;
+            btnRock.UseVisualStyleBackColor = false;
             btnRock.Click += btnRock_Click;
             // 
             // btnPaper
             // 
-            btnPaper.BackgroundImage = Properties.Resources.PAPER;
+            btnPaper.BackColor = Color.Transparent;
+            btnPaper.BackgroundImage = Properties.Resources.STAFF;
             btnPaper.BackgroundImageLayout = ImageLayout.Stretch;
-            btnPaper.Location = new Point(284, 253);
+            btnPaper.FlatStyle = FlatStyle.Popup;
+            btnPaper.Location = new Point(154, 510);
             btnPaper.Name = "btnPaper";
-            btnPaper.Size = new Size(51, 48);
+            btnPaper.Size = new Size(86, 111);
             btnPaper.TabIndex = 4;
-            btnPaper.UseVisualStyleBackColor = true;
+            btnPaper.UseVisualStyleBackColor = false;
             btnPaper.Click += btnPaper_Click;
             // 
             // btnSci
             // 
-            btnSci.BackgroundImage = Properties.Resources.SCISSORS;
+            btnSci.BackColor = Color.Transparent;
+            btnSci.BackgroundImage = Properties.Resources.BOW;
             btnSci.BackgroundImageLayout = ImageLayout.Stretch;
-            btnSci.Location = new Point(341, 253);
+            btnSci.FlatStyle = FlatStyle.Popup;
+            btnSci.Location = new Point(285, 510);
             btnSci.Name = "btnSci";
-            btnSci.Size = new Size(51, 48);
+            btnSci.Size = new Size(87, 111);
             btnSci.TabIndex = 5;
-            btnSci.UseVisualStyleBackColor = true;
+            btnSci.UseVisualStyleBackColor = false;
             btnSci.Click += btnSci_Click;
             // 
             // picEnemyChoice
@@ -114,7 +122,7 @@
             picEnemyChoice.BackColor = Color.Transparent;
             picEnemyChoice.Location = new Point(12, 356);
             picEnemyChoice.Name = "picEnemyChoice";
-            picEnemyChoice.Size = new Size(113, 109);
+            picEnemyChoice.Size = new Size(99, 120);
             picEnemyChoice.TabIndex = 6;
             picEnemyChoice.TabStop = false;
             // 
@@ -128,14 +136,14 @@
             // 
             // lblResult
             // 
-            lblResult.AutoSize = true;
             lblResult.BackColor = Color.Transparent;
             lblResult.ForeColor = SystemColors.ButtonHighlight;
-            lblResult.Location = new Point(171, 322);
+            lblResult.Location = new Point(95, 315);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(50, 20);
+            lblResult.Size = new Size(195, 27);
             lblResult.TabIndex = 8;
-            lblResult.Text = "label2";
+            lblResult.Text = "You won";
+            lblResult.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // lblBotLives
             // 
@@ -163,17 +171,18 @@
             // 
             picPlayerChoice.BackColor = Color.Transparent;
             picPlayerChoice.BackgroundImageLayout = ImageLayout.Stretch;
-            picPlayerChoice.Location = new Point(266, 356);
+            picPlayerChoice.Location = new Point(284, 356);
             picPlayerChoice.Name = "picPlayerChoice";
-            picPlayerChoice.Size = new Size(117, 109);
+            picPlayerChoice.Size = new Size(99, 120);
             picPlayerChoice.TabIndex = 11;
             picPlayerChoice.TabStop = false;
             // 
             // picCardHolder
             // 
-            picCardHolder.Location = new Point(135, 345);
+            picCardHolder.BackColor = Color.Transparent;
+            picCardHolder.Location = new Point(118, 345);
             picCardHolder.Name = "picCardHolder";
-            picCardHolder.Size = new Size(125, 150);
+            picCardHolder.Size = new Size(160, 143);
             picCardHolder.TabIndex = 12;
             picCardHolder.TabStop = false;
             // 
@@ -225,6 +234,7 @@
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormBattleField";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormBattleField";
             Load += FormBattleField_Load;
             ((System.ComponentModel.ISupportInitialize)picIdle).EndInit();
@@ -253,5 +263,6 @@
         private PictureBox picCardHolder;
         private PictureBox picBotIdle;
         private PictureBox picBotAttack;
+        private ToolTip toolTipChoice;
     }
 }

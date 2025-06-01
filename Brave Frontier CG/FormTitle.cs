@@ -11,11 +11,12 @@ namespace Brave_Frontier_CG
         {
             InitializeComponent();
             sound.PlayLooping();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnTouch_Click(object sender, EventArgs e)
@@ -28,7 +29,7 @@ namespace Brave_Frontier_CG
            
             this.Hide();
             FormSplash formSplash = new FormSplash();
-            formSplash.StartPosition = FormStartPosition.Manual;
+            formSplash.StartPosition = FormStartPosition.CenterParent;
             formSplash.Location = this.Location;
             formSplash.ShowDialog();
            

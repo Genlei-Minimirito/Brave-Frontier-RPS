@@ -9,11 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data;
 using MySql.Data.MySqlClient;
+using System.Media;
 
 namespace Brave_Frontier_CG
 {
     public partial class FormLogIn : Form
     {
+        SoundPlayer touch = new SoundPlayer(@"C:\BSCS 1B\BFCG\touch sfx.wav");
         MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=");
         MySqlCommand command = new MySqlCommand();
         MySqlDataReader mdr;
@@ -76,16 +78,20 @@ namespace Brave_Frontier_CG
                     Session.UserName = reader.GetString(0);
 
                     // Show your main menu
-                    this.Hide();
-                    using (var main = new FormMainMenu())
-                        main.ShowDialog();
 
+                    touch.Play();
+                    this.Hide();
+                    FormMenu formStarter = new FormMenu();
+                    formStarter.StartPosition = FormStartPosition.Manual;
+                    formStarter.Location = this.Location;
+                    formStarter.ShowDialog();
                 }
             }
         }
 
         private void picSign_Click(object sender, EventArgs e)
         {
+            touch.Play();
             this.Hide();
             FormSignUp formSign= new FormSignUp();
             formSign.StartPosition = FormStartPosition.Manual;

@@ -118,11 +118,59 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ALICE___DEEMO_IDLE_ANIMATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALICE &amp; DEEMO IDLE ANIMATION.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ALL_MIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALL MIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ALL_MIGHT_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALL MIGHT ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ALL_MIGHT_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALL MIGHT IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ATRO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ATRO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ATRO_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ATRO IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BAKUGO_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BAKUGO ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BAKUGO_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BAKUGO IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BATTLE_FIELD_UI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BATTLE FIELD UI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW_GAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW GAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DEEMO_DARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DEEMO DARK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DEEMO_DARK_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DEEMO DARK ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DEEMO_DARK_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DEEMO DARK IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DEEMO_LIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DEEMO LIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DEEMO_LIGHT_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DEEMO LIGHT ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DEEMO_LIGHT_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DEEMO LIGHT IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DEKU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DEKU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DEKU_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DEKU ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,8 +178,14 @@
   <data name="DEKU_ATTACK_ALTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DEKU ALTER.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DEKU_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DEKU IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="DEKU_IDLE_ALTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DEKU IDLE ALTER.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DISNEY_COLLAB_BANNER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DISNEY COLLAB BANNER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EZE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EZE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,17 +196,50 @@
   <data name="EZE_IDLE_ANIMATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EZE IDLE ANIMATION.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IORI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IORI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="IORI_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IORI ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IORI_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IORI IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IORI_IDLE_ALTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IORI IDLE ALTER.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="JUZO_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JUZO ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JUZO_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JUZO IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JUZO_SUZUYA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JUZO SUZUYA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KAITO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KAITO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KAITO_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KAITO ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KAITO_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KAITO IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KANEKI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KANEKI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="KANEKI_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KANEKI ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="KANEKI_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KANEKI IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="KANEKI_IDLE_ALTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KANEKI IDLE ALTER.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KATSUKI_BAKUGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KATSUKI BAKUGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LANCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LANCE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,14 +250,35 @@
   <data name="LANCE_IDLE_ANIMATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LANCE IDLE ANIMATION.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="LASSWELL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LASSWELL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LASSWELL_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LASSWELL ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LASSWELL_ATTACK_ALTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LASSWELL ATTACK ALTER.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="LASSWELL_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LASSWELL IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LASSWELL_IDLE_ALTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LASSWELL IDLE ALTER.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEFT_ARROW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEFT ARROW.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEN_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEN ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEN_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEN IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOG_IN_UI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOG IN UI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MAGRESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MAGRESS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,11 +289,17 @@
   <data name="MAGRESS_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MAGRESS IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MIKU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MIKU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MIKU_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MIKU ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MIKU_ATTACK_ALTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MIKU ALTER.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MIKU_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MIKU IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MIKU_IDLE_ALTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MIKU IDLE ALTER.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,20 +337,47 @@
   <data name="MONSTER6_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MONSTER6_ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NATSU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NATSU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="NATSU_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NATSU ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NATSU_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NATSU IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NATSU_IDLE_ALTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NATSU IDLE ALTER.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="OBTAINED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OBTAINED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PAPER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PAPER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QUEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QUEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RIGHT_ARROW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RIGHT ARROW.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RIN_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RIN ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RIN_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RIN IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ROCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ROCK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SCISSORS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SCISSORS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SELECT_UI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SELECT UI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SELENA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SELENA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,11 +391,53 @@
   <data name="SELENA_IDLE_ANIMATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SELENA IDLE ANIMATION.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SIGN_UP_UI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SIGN UP UI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STAFF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STAFF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STAFF_GAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STAFF GAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SUMMON_ANIMATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SUMMON ANIMATION.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWORD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWORD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWORD_GAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWORD GAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="THUNDER_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\THUNDER ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TOKI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOKI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOKI_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOKI ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOKI_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOKI IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOUKA_ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOUKA ATTACK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOUKA_IDLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOUKA IDLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOUKA_KIRISHIMA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOUKA KIRISHIMA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNIT_UI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UNIT UI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="VARGAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VARGAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARGAS ATTACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VARGAS ATTACK ANIMATION.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="VARGAS ATTACK ANIMATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VARGASATTACKANIMATION-ezgif.com-loop-count.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

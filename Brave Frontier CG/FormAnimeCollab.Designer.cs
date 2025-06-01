@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAnimeCollab));
             pictArrowLeft = new PictureBox();
             picArrowRight = new PictureBox();
@@ -37,9 +38,12 @@
             picTown = new PictureBox();
             picUnit = new PictureBox();
             picHome = new PictureBox();
-            picSummon10 = new PictureBox();
-            picSummon5 = new PictureBox();
+            picSummonButton = new PictureBox();
             lblName = new Label();
+            toolTipNavBar = new ToolTip(components);
+            lblMana = new Label();
+            lblCoins = new Label();
+            lblGems = new Label();
             ((System.ComponentModel.ISupportInitialize)pictArrowLeft).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picArrowRight).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picSocial).BeginInit();
@@ -48,8 +52,7 @@
             ((System.ComponentModel.ISupportInitialize)picTown).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picUnit).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picHome).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picSummon10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picSummon5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picSummonButton).BeginInit();
             SuspendLayout();
             // 
             // pictArrowLeft
@@ -95,6 +98,7 @@
             picSummon.Size = new Size(63, 62);
             picSummon.TabIndex = 33;
             picSummon.TabStop = false;
+            picSummon.Click += picSummon_Click_1;
             // 
             // picShop
             // 
@@ -125,6 +129,7 @@
             picUnit.Size = new Size(63, 62);
             picUnit.TabIndex = 30;
             picUnit.TabStop = false;
+            picUnit.Click += picUnit_Click_1;
             // 
             // picHome
             // 
@@ -135,24 +140,17 @@
             picHome.Size = new Size(63, 62);
             picHome.TabIndex = 29;
             picHome.TabStop = false;
+            picHome.Click += picHome_Click_1;
             // 
-            // picSummon10
+            // picSummonButton
             // 
-            picSummon10.BackColor = Color.Transparent;
-            picSummon10.Location = new Point(216, 457);
-            picSummon10.Name = "picSummon10";
-            picSummon10.Size = new Size(197, 62);
-            picSummon10.TabIndex = 28;
-            picSummon10.TabStop = false;
-            // 
-            // picSummon5
-            // 
-            picSummon5.BackColor = Color.Transparent;
-            picSummon5.Location = new Point(2, 457);
-            picSummon5.Name = "picSummon5";
-            picSummon5.Size = new Size(197, 62);
-            picSummon5.TabIndex = 27;
-            picSummon5.TabStop = false;
+            picSummonButton.BackColor = Color.Transparent;
+            picSummonButton.Location = new Point(75, 457);
+            picSummonButton.Name = "picSummonButton";
+            picSummonButton.Size = new Size(242, 62);
+            picSummonButton.TabIndex = 27;
+            picSummonButton.TabStop = false;
+            picSummonButton.Click += picSummonButton_Click;
             // 
             // lblName
             // 
@@ -166,6 +164,45 @@
             lblName.TabIndex = 37;
             lblName.Text = "PlayerName";
             // 
+            // lblMana
+            // 
+            lblMana.BackColor = Color.Transparent;
+            lblMana.FlatStyle = FlatStyle.Popup;
+            lblMana.Font = new Font("SimSun", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblMana.ForeColor = SystemColors.ControlLightLight;
+            lblMana.Location = new Point(320, 56);
+            lblMana.Name = "lblMana";
+            lblMana.Size = new Size(91, 17);
+            lblMana.TabIndex = 40;
+            lblMana.Text = "0";
+            lblMana.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // lblCoins
+            // 
+            lblCoins.BackColor = Color.Transparent;
+            lblCoins.FlatStyle = FlatStyle.Popup;
+            lblCoins.Font = new Font("SimSun", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblCoins.ForeColor = SystemColors.ControlLightLight;
+            lblCoins.Location = new Point(320, 39);
+            lblCoins.Name = "lblCoins";
+            lblCoins.Size = new Size(91, 17);
+            lblCoins.TabIndex = 39;
+            lblCoins.Text = "0";
+            lblCoins.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // lblGems
+            // 
+            lblGems.BackColor = Color.Transparent;
+            lblGems.FlatStyle = FlatStyle.Popup;
+            lblGems.Font = new Font("SimSun", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblGems.ForeColor = SystemColors.ControlLightLight;
+            lblGems.Location = new Point(320, 22);
+            lblGems.Name = "lblGems";
+            lblGems.Size = new Size(91, 17);
+            lblGems.TabIndex = 38;
+            lblGems.Text = "99999";
+            lblGems.TextAlign = ContentAlignment.MiddleRight;
+            // 
             // FormAnimeCollab
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -173,6 +210,9 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(413, 680);
+            Controls.Add(lblMana);
+            Controls.Add(lblCoins);
+            Controls.Add(lblGems);
             Controls.Add(lblName);
             Controls.Add(pictArrowLeft);
             Controls.Add(picArrowRight);
@@ -182,8 +222,7 @@
             Controls.Add(picTown);
             Controls.Add(picUnit);
             Controls.Add(picHome);
-            Controls.Add(picSummon10);
-            Controls.Add(picSummon5);
+            Controls.Add(picSummonButton);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormAnimeCollab";
@@ -196,8 +235,7 @@
             ((System.ComponentModel.ISupportInitialize)picTown).EndInit();
             ((System.ComponentModel.ISupportInitialize)picUnit).EndInit();
             ((System.ComponentModel.ISupportInitialize)picHome).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picSummon10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picSummon5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picSummonButton).EndInit();
             ResumeLayout(false);
         }
 
@@ -212,7 +250,11 @@
         private PictureBox picUnit;
         private PictureBox picHome;
         private PictureBox picSummon10;
-        private PictureBox picSummon5;
+        private PictureBox picSummonButton;
         private Label lblName;
+        private ToolTip toolTipNavBar;
+        private Label lblMana;
+        private Label lblCoins;
+        private Label lblGems;
     }
 }

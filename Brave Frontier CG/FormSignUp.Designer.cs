@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSignUp));
             btnSignUp = new Button();
             txtPword = new TextBox();
             txtName = new TextBox();
@@ -97,9 +96,9 @@
             // picLogIn
             // 
             picLogIn.BackColor = Color.Transparent;
-            picLogIn.Location = new Point(264, 424);
+            picLogIn.Location = new Point(282, 423);
             picLogIn.Name = "picLogIn";
-            picLogIn.Size = new Size(74, 19);
+            picLogIn.Size = new Size(56, 20);
             picLogIn.TabIndex = 12;
             picLogIn.TabStop = false;
             picLogIn.Click += picLogIn_Click;
@@ -108,7 +107,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImage = Properties.Resources.SIGN_UP_UI;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(413, 680);
             Controls.Add(picLogIn);
